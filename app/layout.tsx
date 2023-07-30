@@ -7,12 +7,12 @@ import 'styles/main.css';
 export const revalidate = 0;
 
 const meta = {
-  title: 'Next.js Subscription Starter',
-  description: 'Brought to you by Vercel, Stripe, and Supabase.',
+  title: 'Faux Network - AI Content Production Network',
+  description: 'Bring content creation tools to the massses.',
   cardImage: '/og.png',
   robots: 'follow, index',
   favicon: '/favicon.ico',
-  url: 'https://subscription-starter.vercel.app',
+  url: 'https://faux.network',
   type: 'website'
 };
 
@@ -34,7 +34,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@vercel',
+    site: '@fauxnetwork',
     title: meta.title,
     description: meta.description,
     cardImage: meta.cardImage
