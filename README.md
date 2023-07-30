@@ -119,17 +119,27 @@ npm install supabase --save-dev
 yarn add supabase --dev
 ```
 
-2. Connect to supabase
+2. Enter your access token. You can generate an access token from https://app.supabase.com/account/tokens
+
+3. Connect to supabase (and run migrations)
 
 ```bash
 npx supabase login
+
+npx supabase projects list 
+npx supabase link --project-ref [projectid]
+
+npx supabase db push
 ```
 
-3. Enter your access token. You can generate an access token from https://app.supabase.com/account/tokens
 4. Generate types
 
 ```bash
 npx supabase gen types typescript --project-id [YOUR-PROJECT-REF] --schema public > types_db.ts
+
+or 
+
+npx supabase gen types typescript --linked --schema public > types_db.ts
 ```
 
 ### That's it
