@@ -3,7 +3,7 @@ import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter'
 import { OpenAI } from 'langchain/llms/openai'
 import { LLMChain, loadQAStuffChain } from 'langchain/chains'
 import { Document } from 'langchain/document'
-import { timeout } from './config'
+// import { timeout } from './config'
 
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
 import { SerpAPI } from "langchain/tools";
