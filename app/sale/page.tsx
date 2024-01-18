@@ -252,7 +252,7 @@ export default function Sale() {
                 </div>
                 <audio 
                   controls 
-                  className="object-cover object-center group-hover:opacity-75  sm:h-full sm:w-full"
+                  className="object-cover object-center group-hover:opacity-75 h-24 sm:w-full"
                 >
                   <source src="/audio/hl-short.mp3" type="audio/mpeg" />
                 </audio>
