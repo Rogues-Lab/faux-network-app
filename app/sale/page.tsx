@@ -137,9 +137,9 @@ export default function Sale() {
 
                 <a
                   href="#breakdown"
-                  className="inline-block rounded-md border border-transparent bg-stone-900 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  className="inline-block rounded-md border border-transparent bg-stone-900 px-8 py-3 mb-20 text-center font-medium text-white hover:bg-indigo-700"
                 >
-                  Custom Branded Avatar
+                  Custom Avatars
                 </a>
               </div>
             </div>
@@ -219,15 +219,13 @@ export default function Sale() {
                 />
                 <div
                   aria-hidden="true"
-                  className="bg-gradient-to-b from-transparent to-black opacity-80 sm:absolute sm:inset-0"
+                  className="bg-gradient-to-b from-transparent to-black opacity-80 "
                 />
-                <div className="flex items-end p-6 sm:absolute sm:inset-0">
+                <div className="flex items-end p-6 ">
                   <div>
                     <h3 className="font-semibold text-grey-500">
-                      <a href="#">
-                        <span className="absolute inset-0" />
+                        <span className="" />
                         Dynamic Scripting
-                      </a>
                     </h3>
                     <p aria-hidden="true" className="mt-1 text-sm text-white">
                       AI Scripts, Translations
@@ -242,10 +240,10 @@ export default function Sale() {
                 <div className="flex items-start p-6">
                   <div>
                     <h3 className="font-semibold text-black">
-                      <a href="#">
-                        <span className="absolute inset-0" />
+                 
+                        <span className="" />
                         Audio Files
-                      </a>
+                  
                     </h3>
                     <p aria-hidden="true" className="mt-1 text-sm text-black">
                       Continuously Improving Models
@@ -254,19 +252,19 @@ export default function Sale() {
                 </div>
                 <audio 
                   controls 
-                  className="object-cover object-center group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
+                  className="object-cover object-center group-hover:opacity-75  sm:h-full sm:w-full"
                 >
                   <source src="/audio/hl-short.mp3" type="audio/mpeg" />
                 </audio>
               </div>
             </div>
 
-            <div className="mt-6 sm:hidden">
+            {/* <div className="mt-6 sm:hidden">
               <a href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
                 Browse all categories
                 <span aria-hidden="true"> &rarr;</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -330,12 +328,12 @@ export default function Sale() {
               ))}
             </div>
 
-            <div className="mt-6 sm:hidden">
+            {/* <div className="mt-6 sm:hidden">
               <a href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
                 Browse all favorites
                 <span aria-hidden="true"> &rarr;</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
 
