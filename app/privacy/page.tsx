@@ -5,6 +5,9 @@ import GitHub from '@/components/icons/GitHub';
 
 export default function Privacy() {
   return (
-    <h1>Privacy </h1>
+    <div>
+      <h1>Privacy</h1>
+      <p></p>
+    </div>
     );
 }
