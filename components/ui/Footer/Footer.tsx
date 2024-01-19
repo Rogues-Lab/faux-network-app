@@ -28,14 +28,14 @@ export default function Footer() {
                 Home
               </Link>
             </li>
-            <li className="py-3 md:py-0 md:pb-4">
+            {/* <li className="py-3 md:py-0 md:pb-4">
               <Link
                 href="/about"
                 className="text-white transition duration-150 ease-in-out hover:text-zinc-200"
               >
                 About
               </Link>
-            </li>
+            </li> */}
             {/* <li className="py-3 md:py-0 md:pb-4">
               <Link
                 href="/"
@@ -56,19 +56,19 @@ export default function Footer() {
         </div>
         <div className="col-span-1 lg:col-span-2">
           <ul className="flex flex-col flex-initial md:flex-1">
-            <li className="py-3 md:py-0 md:pb-4">
+            {/* <li className="py-3 md:py-0 md:pb-4">
               <p className="font-bold text-white transition duration-150 ease-in-out hover:text-zinc-200">
                 LEGAL
               </p>
-            </li>
-            <li className="py-3 md:py-0 md:pb-4">
+            </li> */}
+            {/* <li className="py-3 md:py-0 md:pb-4">
               <Link
                 href="/privacy"
                 className="text-white transition duration-150 ease-in-out hover:text-zinc-200"
               >
                 Privacy Policy
               </Link>
-            </li>
+            </li> */}
             <li className="py-3 md:py-0 md:pb-4">
               <Link
                 href="/terms"
