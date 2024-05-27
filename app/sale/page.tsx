@@ -49,7 +49,7 @@ function classNames(...classes: string[]) {
 
 export default function Sale() {
   const [open, setOpen] = useState(false)
-  const linkContact = "https://calendly.com/darren_rogan/30min"
+  const linkContact = "https://calendly.com/darren_rogan/chat"
 
   return (
     <div className="bg-white">
